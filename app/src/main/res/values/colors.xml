@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00C0A3</color>
+    <color name="colorPrimaryDark">#00896F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryLight">#c8e6c9</color><!-- materialpalette: primary_light -->
+
+    <color name="textColorPrimary">#212121</color><!-- materialpalette: primary_text -->
+    <color name="textColorSecondary">#727272</color><!-- materialpalette: secondary_text -->
+    <color name="listDivider">#B6B6B6</color><!-- materialpalette: divider -->
+
+    <color name="colorTextIcons">#FFFFFF</color><!-- materialpalette: icons -->
+
+
+    <color name="colorControlNormal">#757575</color>
+    <color name="colorControlActivated">@color/colorAccent</color>
+    <color name="colorControlHighlight">#FF5722</color>
+    <color name="colorSwitchThumbNormal">#BDBDBD</color>
+    <color name="colorButtonNormal">#BDBDBD</color>
+    <color name="colorEdgeEffect">#FF4081</color>
+
+    <color name="switch_on">@color/colorAccent</color>
+</resources>

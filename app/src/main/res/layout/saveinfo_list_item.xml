@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/imgv_thumb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ic_user_icon"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    <TextView
+        android:id="@+id/txv_user_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:layout_toRightOf="@+id/imgv_thumb"
+        />
+    <TextView
+        android:id="@+id/txv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:textSize="17dp"
+        android:layout_toRightOf="@+id/imgv_thumb"
+        />
+
+        <TextView
+            android:id="@+id/txv_time_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
